@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewRowText" xml:space="preserve">
+    <value>Cliquez ici pour ajouter une ligne</value>
+  </data>
+  <data name="AdvancedFiltersButtonText" xml:space="preserve">
+    <value>Filtres avancés</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Après</value>
+  </data>
+  <data name="AfterOrEqual" xml:space="preserve">
+    <value>Après ou égal</value>
+  </data>
+  <data name="AND" xml:space="preserve">
+    <value>Et</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Avant</value>
+  </data>
+  <data name="BeforeOrEqual" xml:space="preserve">
+    <value>Avant ou égal</value>
+  </data>
+  <data name="BeginsWith" xml:space="preserve">
+    <value>Commence par</value>
+  </data>
+  <data name="Blanks" xml:space="preserve">
+    <value>(Vides)</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Bas :</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Effacer le filtre</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ColumnChooserTitle" xml:space="preserve">
+    <value>Choix des colonnes</value>
+  </data>
+  <data name="ColumnChooserWaterMark" xml:space="preserve">
+    <value>(pas de colonnes disponibles)</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Contient</value>
+  </data>
+  <data name="CustomMargin" xml:space="preserve">
+    <value>Marge personnalisée</value>
+  </data>
+  <data name="CustomMargins" xml:space="preserve">
+    <value>Marges peronnalisées</value>
+  </data>
+  <data name="CustomPageSizes" xml:space="preserve">
+    <value>Tailles de page personnalisées</value>
+  </data>
+  <data name="CustomSize" xml:space="preserve">
+    <value>Taille personnalisée</value>
+  </data>
+  <data name="DateFilters" xml:space="preserve">
+    <value>Filtres de date</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="EndsWith" xml:space="preserve">
+    <value>Termine par</value>
+  </data>
+  <data name="EnterValidFilterValue" xml:space="preserve">
+    <value>Entrez une valeur de filtre valide</value>
+  </data>
+  <data name="Equalss" xml:space="preserve">
+    <value>Egal</value>
+  </data>
+  <data name="FitAllColumnsOnOnePage" xml:space="preserve">
+    <value>Toutes les colonnes sur une page</value>
+  </data>
+  <data name="FitAllRowsOnOnePage" xml:space="preserve">
+    <value>Toutes les lignes sur une page</value>
+  </data>
+  <data name="FitGridOnOnePage" xml:space="preserve">
+    <value>Grille sur une page</value>
+  </data>
+  <data name="GreaterThan" xml:space="preserve">
+    <value>Supérieur à</value>
+  </data>
+  <data name="GreaterThanorEqual" xml:space="preserve">
+    <value>Supérieur ou égal</value>
+  </data>
+  <data name="GroupDropAreaText" xml:space="preserve">
+    <value>Déplacer un entête de colonne ici pour grouper par cette colonne</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Hauteur :</value>
+  </data>
+  <data name="LandScapeOrientation" xml:space="preserve">
+    <value>Orientation Paysage</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Gauche :</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Inférieur à</value>
+  </data>
+  <data name="LessThanorEqual" xml:space="preserve">
+    <value>Inférieur ou égal</value>
+  </data>
+  <data name="MatchCaseToolTip" xml:space="preserve">
+    <value>Correspondance</value>
+  </data>
+  <data name="Moderate" xml:space="preserve">
+    <value>Modéré</value>
+  </data>
+  <data name="Narrow" xml:space="preserve">
+    <value>Etroit</value>
+  </data>
+  <data name="NoItems" xml:space="preserve">
+    <value>Rien à afficher</value>
+  </data>
+  <data name="NoMatches" xml:space="preserve">
+    <value>Aucune correspondance</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="NoScaling" xml:space="preserve">
+    <value>Pas de mise à l'échelle</value>
+  </data>
+  <data name="NotContains" xml:space="preserve">
+    <value>Ne contient pas</value>
+  </data>
+  <data name="NotEmpty" xml:space="preserve">
+    <value>N'est pas vide</value>
+  </data>
+  <data name="NotEquals" xml:space="preserve">
+    <value>N'est pas égal</value>
+  </data>
+  <data name="NotNull" xml:space="preserve">
+    <value>N'est pas null</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Null" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NumberFilters" xml:space="preserve">
+    <value>Filtre de nombre</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="PortraitOrientation" xml:space="preserve">
+    <value>Orientation Portrait</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Aperçu avant impression</value>
+  </data>
+  <data name="QuickPrint" xml:space="preserve">
+    <value>Impression rapide</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Droite :</value>
+  </data>
+  <data name="RowErrorMessage" xml:space="preserve">
+    <value>Erreur(s) sur la ligne</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>(Tout sélectionner)</value>
+  </data>
+  <data name="SelectDateToolTip" xml:space="preserve">
+    <value>Sélection de date</value>
+  </data>
+  <data name="ShowRowsWhere" xml:space="preserve">
+    <value>Montrer les lignes:</value>
+  </data>
+  <data name="SortDateAscending" xml:space="preserve">
+    <value>Du plus ancien au plus récent</value>
+  </data>
+  <data name="SortDateDescending" xml:space="preserve">
+    <value>Du plus récent au plus ancien</value>
+  </data>
+  <data name="SortNumberAscending" xml:space="preserve">
+    <value>Du plus petit au plus grand</value>
+  </data>
+  <data name="SortNumberDescending" xml:space="preserve">
+    <value>Du plus grand au plus petit</value>
+  </data>
+  <data name="SortStringAscending" xml:space="preserve">
+    <value>De A à Z</value>
+  </data>
+  <data name="SortStringDescending" xml:space="preserve">
+    <value>De Z à A</value>
+  </data>
+  <data name="TextFilters" xml:space="preserve">
+    <value>Filtres de texte</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Haut :</value>
+  </data>
+  <data name="Wide" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Largeur :</value>
+  </data>
+  <data name="CantDropHere" xml:space="preserve">
+    <value>Impossible de déposer ici</value>
+  </data>
+  <data name="DraggingRowsCount" xml:space="preserve">
+    <value>Nombres de lignes transférées :</value>
+  </data>
+  <data name="DropAbove" xml:space="preserve">
+    <value>Déposer au dessus</value>
+  </data>
+  <data name="DropAsChild" xml:space="preserve">
+    <value>Déposer comme enfant</value>
+  </data>
+  <data name="DropBelow" xml:space="preserve">
+    <value>Déposer dessous</value>
+  </data>
+  <data name="DropStatus" xml:space="preserve">
+    <value>Etat :</value>
+  </data>
+  <data name="NotBeginsWith" xml:space="preserve">
+    <value>Ne commence pas par</value>
+  </data>
+  <data name="Drop status:" xml:space="preserve">
+    <value>Filtres dessus</value>
+  </data>
+</root>
