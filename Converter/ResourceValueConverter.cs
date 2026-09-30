@@ -25,7 +25,7 @@ namespace SfTreeGrid_CustomDrag
                 return string.Empty;
             }
 
-            string? localizedValue = Resource1.ResourceManager.GetString(
+            string? localizedValue = CustomDragResource.ResourceManager.GetString(
                     resourceKey,
                     culture);
             
