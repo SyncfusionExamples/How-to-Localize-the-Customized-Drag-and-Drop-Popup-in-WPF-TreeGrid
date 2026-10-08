@@ -4,7 +4,7 @@ namespace SfTreeGrid_CustomDrag
 {
     public class ViewModel
     {
-        public string dragStatus { get; set; } = "DropStatus";
+        public string DropStatus { get; set; } = "DropStatus";
 
         public ViewModel()
         {
